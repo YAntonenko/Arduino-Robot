@@ -138,7 +138,9 @@ void setMotor(int en, int in1, int in2, int speed) {
 
 [Vaata video](/VideoProject1-ezgif.com-video-to-gif-converter.gif)
 
-[Foto 1]
+[Foto 1](/IMG_89660451-6974-4B2D-B88B-36FCE2B13ED3.jpeg)
+[Foto 2](/IMG_AD92D1F5-2950-4B07-B658-3923AEAFAF77.jpeg)
+[Foto 3](/IMG_BF9E5B35-9DB9-4C17-AA2A-B953D53F2C96.jpeg)
 
 ## ⚠️ Probleemid ja lahendused
 
