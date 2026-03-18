@@ -15,63 +15,63 @@ Eesmärgid:
 ## 🤖 Roboti kirjeldus ja tööpõhimõte
 
 Robot on kahe rattaga auto, mida juhitakse FlySky puldiga.
-
 Tööpõhimõte:
 
-Pult saadab signaale (kanalid CH1 ja CH3)
+* Pult saadab signaale (kanalid CH1 ja CH3)
 
-Vastuvõtja võtab signaalid vastu
+* Vastuvõtja võtab signaalid vastu
 
-Arduino loeb signaali funktsiooniga pulseIn()
+* Arduino loeb signaali funktsiooniga pulseIn()
 
-Signaal teisendatakse kiiruseks ja suunaks
+* Signaal teisendatakse kiiruseks ja suunaks
 
-L298N mootoridraiver juhib mootoreid
+* L298N mootoridraiver juhib mootoreid
 
 ## ⚙️ Ühendusskeem
-4
+
 
 Peamised ühendused:
 
-Vastuvõtja → Arduino
+* Vastuvõtja → Arduino
 
-CH1 (rool) → A0
+* CH1 (rool) → A0
 
-CH3 (gaas) → A1
+* CH3 (gaas) → A1
 
-VCC → 5V
+* VCC → 5V
 
-GND → GND
+* GND → GND
+
 
 Mootoridraiver L298N
 
-ENA → pin 5
+* ENA → pin 5
 
-IN1 → pin 2
+* IN1 → pin 2
 
-IN2 → pin 3
+* IN2 → pin 3
 
-ENB → pin 6
+* ENB → pin 6
 
-IN3 → pin 4
+* IN3 → pin 4
 
-IN4 → pin 7
+* IN4 → pin 7
 
 ## 🔧 Kasutatud komponendid
 
-Arduino UNO
+* Arduino UNO
 
-L298N mootoridraiver
+* L298N mootoridraiver
 
-2 DC mootorit
+* 2 DC mootorit
 
-FlySky FS-i6 pult
+* FlySky FS-i6 pult
 
-Vastuvõtja FS-iA6B
+* Vastuvõtja FS-iA6B
 
-Aku (toiteallikas)
+* Aku (toiteallikas)
 
-Juhtmed
+* Juhtmed
 
 ## 💻 Programmikood
 ```
@@ -138,7 +138,7 @@ void setMotor(int en, int in1, int in2, int speed) {
 
 [Video](https://pages.github.com/)
 
-👉 Lisa siia oma projekti päris fotod!
+
 
 ## ⚠️ Probleemid ja lahendused
 
@@ -164,22 +164,22 @@ Serial Monitori kasutamine
 
 Selle projekti käigus õppisin:
 
-Arduino kasutamist
+* Arduino kasutamist
 
-mootorite juhtimist
+* mootorite juhtimist
 
-raadiosignaalide lugemist
+* raadiosignaalide lugemist
 
-vigade leidmist ja parandamist
+* vigade leidmist ja parandamist
 
-roboti ehitamist
+* roboti ehitamist
 
 ## 🚀 Tulemus
 
 Projekt on edukalt valmis. Auto suudab:
 
-liikuda edasi ja tagasi
+* liikuda edasi ja tagasi
 
-pöörata vasakule ja paremale
+* pöörata vasakule ja paremale
 
-peatuda
+* peatuda
