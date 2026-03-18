@@ -2,16 +2,15 @@
 ## 📌 Projekti idee ja eesmärk
 
 Selle projekti eesmärk on luua Arduino baasil juhitav auto, mida saab juhtida raadiosaatja (puldiga).
-
 Eesmärgid:
 
-õppida Arduino kasutamist
+* õppida Arduino kasutamist
 
-ühendada mootorid läbi draiveri
+* ühendada mootorid läbi draiveri
 
-lugeda signaale vastuvõtjalt
+* lugeda signaale vastuvõtjalt
 
-realiseerida auto liikumise juhtimine
+* realiseerida auto liikumise juhtimine
 
 ## 🤖 Roboti kirjeldus ja tööpõhimõte
 
