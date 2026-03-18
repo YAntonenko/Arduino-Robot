@@ -185,3 +185,5 @@ Projekt on edukalt valmis. Auto suudab:
 * pöörata vasakule ja paremale
 
 * peatuda
+
+* Autot juhitakse puldiga ja see suudab takistusi vältida.
