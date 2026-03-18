@@ -136,7 +136,7 @@ void setMotor(int en, int in1, int in2, int speed) {
 
 ## 📸 Projekti fotod ja videod
 
-[Vaata video](https://github.com/YAntonenko/Arduino-Robot/blob/main/VideoProject1-ezgif.com-video-to-gif-converter.gif)
+[Vaata video](/VideoProject1-ezgif.com-video-to-gif-converter.gif)
 
 
 
